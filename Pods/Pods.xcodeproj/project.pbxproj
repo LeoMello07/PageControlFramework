@@ -57,7 +57,7 @@
 		1CF680F8040201F616B4FF37277889FE /* Pods-PageControlFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PageControlFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E2956F922BE16F2C6ACF68C2B453953 /* Pods-PageControlFrameworkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PageControlFrameworkTests.modulemap"; sourceTree = "<group>"; };
 		218E6957719F7139F1D74178BC24653D /* BWWalkthrough-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BWWalkthrough-prefix.pch"; sourceTree = "<group>"; };
-		2409C43E92B07FBE133F8469ADC63933 /* Pods-PageControlFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PageControlFramework"; path = Pods_PageControlFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2409C43E92B07FBE133F8469ADC63933 /* Pods_PageControlFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageControlFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FD61BFA1F1180CBE517D0F74DDF413 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BWWalkthroughPageViewController.swift; path = BWWalkthrough/BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		53280605E33D60C3D99FFF2FBD42D991 /* BWWalkthrough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BWWalkthrough.release.xcconfig; sourceTree = "<group>"; };
 		542BF70CF74689B7C2594EE28902D641 /* Pods-PageControlFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PageControlFramework-umbrella.h"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		91160D881933D859655807DA54441A1F /* Pods-PageControlFramework-PageControlFrameworkUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PageControlFramework-PageControlFrameworkUITests.modulemap"; sourceTree = "<group>"; };
 		96753ABEA95AA422053F00C1AF28D678 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BWWalkthroughViewController.swift; path = BWWalkthrough/BWWalkthroughViewController.swift; sourceTree = "<group>"; };
 		9B97881F1E2E80875D451D6AFDA6E28C /* BWWalkthrough.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BWWalkthrough.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F504819917510F94868EB573D6927C2 /* Pods-PageControlFrameworkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PageControlFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		A073141BFAD2733CD0EE6EEA9BAFF009 /* Pods-PageControlFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PageControlFramework-frameworks.sh"; sourceTree = "<group>"; };
 		A8E3288AE4A28FD4822AF4C40697A883 /* Pods-PageControlFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PageControlFramework.debug.xcconfig"; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				6044980B13451DB6FE9834FDBF09B2B9 /* BWWalkthrough */,
-				2409C43E92B07FBE133F8469ADC63933 /* Pods-PageControlFramework */,
+				2409C43E92B07FBE133F8469ADC63933 /* Pods_PageControlFramework.framework */,
 				5F195104CA3C16C6674047E9444805AA /* Pods-PageControlFramework-PageControlFrameworkUITests */,
 				045FAC80EC64793D9A4C5385C0D2F7A4 /* Pods-PageControlFrameworkTests */,
 			);
@@ -178,7 +178,6 @@
 				96753ABEA95AA422053F00C1AF28D678 /* BWWalkthroughViewController.swift */,
 				76D3FCA13AF922496452FED97E2AF16D /* Support Files */,
 			);
-			name = BWWalkthrough;
 			path = BWWalkthrough;
 			sourceTree = "<group>";
 		};
@@ -350,7 +349,7 @@
 			);
 			name = "Pods-PageControlFramework";
 			productName = Pods_PageControlFramework;
-			productReference = 2409C43E92B07FBE133F8469ADC63933 /* Pods-PageControlFramework */;
+			productReference = 2409C43E92B07FBE133F8469ADC63933 /* Pods_PageControlFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ACA571502760760E6DE562E35AB70DC4 /* Pods-PageControlFrameworkTests */ = {

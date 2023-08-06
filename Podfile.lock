@@ -1,16 +1,16 @@
 PODS:
-  - BWWalkthrough (4.0.0)
+  - Instructions (2.2.0)
 
 DEPENDENCIES:
-  - BWWalkthrough
+  - Instructions (~> 2.2.0)
 
 SPEC REPOS:
   trunk:
-    - BWWalkthrough
+    - Instructions
 
 SPEC CHECKSUMS:
-  BWWalkthrough: 9f46edbd1a145c74f3e5287b01cb4a884c840bf2
+  Instructions: 07052901a398b42eb1d83de9755b8a0bac3e2f7d
 
-PODFILE CHECKSUM: 78b316afe39831a13ea57dbed3506739ef9b18d9
+PODFILE CHECKSUM: 3431218810aa53568706681366124ee8bcd06d51
 
 COCOAPODS: 1.12.1
