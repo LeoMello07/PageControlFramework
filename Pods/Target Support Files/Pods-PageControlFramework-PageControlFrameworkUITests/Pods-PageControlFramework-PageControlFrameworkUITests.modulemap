@@ -1,0 +1,6 @@
+framework module Pods_PageControlFramework_PageControlFrameworkUITests {
+  umbrella header "Pods-PageControlFramework-PageControlFrameworkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
