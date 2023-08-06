@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 103c4506d6e88f922ed1fe2cb4a07aaca022dd93
+PODS:
+  - BWWalkthrough (4.0.0)
+
+DEPENDENCIES:
+  - BWWalkthrough
+
+SPEC REPOS:
+  trunk:
+    - BWWalkthrough
+
+SPEC CHECKSUMS:
+  BWWalkthrough: 9f46edbd1a145c74f3e5287b01cb4a884c840bf2
+
+PODFILE CHECKSUM: 6de510de65d7afcb2528e8f0e77eb9fb6e74f059
 
 COCOAPODS: 1.12.1

@@ -4,7 +4,8 @@
 target 'PageControlFramework' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+	
+	pod "BWWalkthrough"
 
   target 'PageControlFrameworkTests' do
     inherit! :search_paths
