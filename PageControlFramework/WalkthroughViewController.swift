@@ -7,12 +7,12 @@
 
 import UIKit
 
-class WalkthroughViewController: UIViewController {
-
+class WalkthroughViewController: UIViewController{
+    
     @IBOutlet weak var fowardButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var pageControl: UIPageControl!
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
 
